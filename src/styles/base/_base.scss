@@ -1,0 +1,87 @@
+/*basic reset*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'Royal';
+  src: url('/assets/fonts/Royal-Castle/Royal Castle Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Proxima';
+  src: url('/assets/fonts/Proxima/ProximaNova-Regular.otf');
+}
+
+html {
+  font-size: 62.5%;
+
+  // @media only screen and (max-width: 600px) {
+  // 	font-size:50%;
+  //   }
+
+}
+
+body {
+  box-sizing: border-box;
+  // font-family: 'Helvetica Neue', sans-serif !important;
+  // font-family: 'Custom Helvetica', sans-serif !important;
+  font-family: 'Royal', sans-serif;
+  font-style: normal;
+  // background-color: #4053A4;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+
+a {
+  color: inherit;
+  transition: all .2s ease-out;
+
+  &:hover {
+    text-decoration: none;
+    color: inherit
+  }
+
+  &.btn:hover {
+    // color: //TODO;
+
+  }
+}
+
+
+input,
+select {
+
+  font-family: inherit;
+  border-image: none;
+  outline: none;
+  background: transparent;
+
+}
+
+
+label,
+input,
+select {
+
+  // font-size: //TODO;
+
+}
+
+.password__controls i {
+  font-size: 2.2rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}

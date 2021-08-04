@@ -1,0 +1,15 @@
+.btn{
+  border-radius: 8px !important;
+  &.cfc-btn {
+    width: 220px;
+    height: 60px;
+    font-family: 'Proxima', sans-serif !important;
+  }
+  &-red{
+    background-color: $color-red;
+    color: $color-white;
+    text-transform: capitalize;
+    font-size: $font-size-regular-alt;
+    font-weight: 700;
+  }
+}
