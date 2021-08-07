@@ -35,11 +35,9 @@
               "src/_redirects"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles/main.scss"
             ],
-            "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -51,8 +49,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "10kb",
-                  "maximumError": "15kb"
+                  "maximumWarning": "5kb",
+                  "maximumError": "10kb"
                 }
               ],
               "fileReplacements": [
